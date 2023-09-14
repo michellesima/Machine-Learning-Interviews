@@ -89,6 +89,8 @@ Note: Remember when using this design flow during an interview to be flexible. A
         - Roc auc: TPR(recall) vs FPR graph, the probability that a randomly chosen positive instance is ranked higher than a randomly chosen negative instance
         - Pr auc: precision recall graph, the average of precision scores calculated for each recall threshold. Focus on positive examples
       - mAP: mean average precision, computes the average precision value for recall value over 0 to 1, varies from 0 to 1, higher means better
+      - log loss: loss for classification
+      - Mean square error: loss for regression
       - Imbalanced data
   - Retrieval and ranking metrics
     - Precision@k, Recall@k (do not consider ranking quality)

@@ -84,6 +84,11 @@ Note: Remember when using this design flow during an interview to be flexible. A
 - Offline metrics (e.g. classification, relevance metrics)  
   - Classification metrics
     - Precision, Recall, F1, ROC AUC, P/R AUC, mAP, log-loss, etc
+      - Precision, recall, F1 score https://en.wikipedia.org/wiki/F-score,
+      - AUC area under curve(https://neptune.ai/blog/f1-score-accuracy-roc-auc-pr-auc)
+        - Roc auc: TPR(recall) vs FPR graph, the probability that a randomly chosen positive instance is ranked higher than a randomly chosen negative instance
+        - Pr auc: precision recall graph, the average of precision scores calculated for each recall threshold. Focus on positive examples
+      - mAP: mean average precision, computes the average precision value for recall value over 0 to 1, varies from 0 to 1, higher means better
       - Imbalanced data
   - Retrieval and ranking metrics
     - Precision@k, Recall@k (do not consider ranking quality)
